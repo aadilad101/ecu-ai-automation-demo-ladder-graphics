@@ -1,0 +1,2 @@
+# Keep the notebook (mostly an embedded preview image) out of the language stats
+*.ipynb linguist-detectable=false

@@ -12,7 +12,24 @@ Built as a live demo for a guest lecture at Edith Cowan University (ECU).
 
 ## Why I built it
 
-Every week, club and league staff rebuild ladder graphics by hand: they copy the standings out of a spreadsheet, retype them into a design tool and check every number. It's slow, repetitive and easy to get wrong. This project automates that job. You drop in the CSV, fix anything in the browser, and download a finished, on-brand graphic in seconds.
+Sporting organisations post fixture and ladder graphics for every division, every week. Done by hand in Photoshop, that can mean hundreds of small text edits a week. That's slow and repetitive, and with that many edits, a typo somewhere is almost guaranteed.
+
+At Football West, I automated our real fixtures and ladders graphics, which cut about 4–5 hours of manual work a week to under a minute. For a guest lecture on tech, data and AI at ECU, I rebuilt a simplified version of that idea as a live demo, and set students this brief:
+
+> You've just joined the marketing team at a brand-new state sporting body, **Bubble Soccer WA**. The CEO wants fixtures and ladders posted for 10+ divisions every week of the season. How would you automate it?
+
+## Where AI fits in
+
+The tempting answer is "just ask an AI to make the graphic." In the lecture, I gave the same ladder to two chatbots:
+
+![ChatGPT invents team names; Gemini keeps the data but the design is plain](docs/llm_comparison.png)
+
+- **ChatGPT** (medium thinking model) made up its own team names and results.
+- **Gemini Pro** kept the data right, but the design didn't come close to a finished graphic.
+
+Image generation is a black box: run it twice and you get two different results, with no guarantee every number is correct. A script is the opposite. It's repeatable, every number comes straight from the data, and changing a font, colour or column position is a one-line edit.
+
+The takeaway: don't use AI to *be* the automation, use it to help you *build* the automation. Frontier AI coding models now make it realistic for one or two people to build production-ready internal tools, without a team of developers or a big budget. Review and test AI-generated code before you trust it.
 
 ## Features
 

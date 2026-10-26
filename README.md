@@ -2,7 +2,7 @@
 
 Turns a league ladder spreadsheet into a ready-to-post 1080×1080 social media graphic.
 
-Built as a live demo for a guest lecture at Edith Cowan University (ECU).
+Built as a live demo for a guest lecture at Edith Cowan University (ECU). 📑 [View the lecture slides](docs/slides.pdf)
 
 <p align="center">
   <img src="docs/example_output.png" alt="Generated ladder graphic" width="420">
@@ -71,7 +71,7 @@ The app opens at http://localhost:8501 with sample data loaded. To follow the no
 ├── ladder_graphic.ipynb   # Step-by-step lecture walkthrough
 ├── data/                  # Sample ladder CSV
 ├── assets/                # Background template and bundled fonts
-└── docs/                  # Screenshots
+└── docs/                  # Lecture slides and screenshots
 ```
 
 ## Tech
